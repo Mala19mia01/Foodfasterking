@@ -1,0 +1,240 @@
+* {
+
+    border: 0;
+    padding: 0;
+    
+}
+
+body {
+
+    padding: 0;
+    margin: 0;
+    background: black;
+    
+}
+
+.contenedor {
+
+    width: 100%;
+    background: black;
+    
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    
+    width: 10%;
+    
+}
+
+
+.nombre{
+
+    color: white;
+    font-size: 28px;
+
+}
+
+.nombre span {
+
+    color: orange;
+
+}
+
+nav ul li {
+
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+
+    color: orange;
+    text-decoration: underline 5px;
+
+}
+
+#btn button{
+
+    margin-left: 55%;
+    padding: 12px 30px;
+    border-radius: 30px;
+    background: black;
+    width: 50%;
+
+}
+
+#btn button a{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4;
+
+}
+
+
+#btn button:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: orange;
+
+
+}
+
+#btn img{
+
+
+    width: 20%;
+    float: right;
+   
+}
+
+.estadodecuenta {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+
+}
+
+.estadodecuenta p {
+    
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    font-size: 350%;
+    color: white;
+
+
+}
+
+.saldo{
+
+display: flex;
+
+}
+
+#saldo2 {
+
+    justify-content: end;
+    display: flex;
+    justify-content: left;
+    font-family: arial;
+    font-size: 160%;
+    color: white;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+#saldo3 {
+
+    justify-content: end;
+    margin-left: 65%;
+    display: flex;
+    justify-content: right;
+    font-family: arial;
+    font-size: 160%;
+    color: white;
+    margin-top: 5%;
+   
+}
+
+.recargar {
+
+    display: flex;
+
+}
+
+#recargar {
+
+    justify-content: end;
+    display: flex;
+    justify-content: left;
+    font-family: arial;
+    font-size: 160%;
+    color: white;
+    margin-left: 7%;
+    margin-top: 5%;
+    
+}
+
+.formasdepago {
+
+    justify-content: left;
+    float: left;
+    margin-left: 6.8%;
+}
+
+.formasdepago img{
+
+    display: flex;
+    float: left;
+    width: 5%;
+    
+}
+
+
+
+.cerrarsesion p {
+    
+    display: flex;
+    margin-top: 10%;
+    margin-left: 43%;
+    color: aliceblue;
+    font-size: 150%;
+   
+}
+
+.cerrarsesion img {
+
+    width: 18%;
+    display: flex;
+    float: right;
+    position: relative;
+     
+}
+
+.cerrarsesion a {
+
+    text-decoration: none;   
+    color: aliceblue;
+    margin-right: 77%;
+
+}
+
+.cerrarsesion a:hover {
+
+    text-decoration: underline;
+
+}
